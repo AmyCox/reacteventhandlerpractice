@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import MyButton from "./components/MyButton";
 import MyInput from "./components/MyInput";
 import MyList from "./components/MyList";
+import HigherOrderEventHandler from "./components/HigherOrderEventHandler";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <MyButton>Button</MyButton>
         <MyInput />
         <MyList />
+        <HigherOrderEventHandler />
         <a
           className="App-link"
           href="https://reactjs.org"
