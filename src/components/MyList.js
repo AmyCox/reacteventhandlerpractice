@@ -9,6 +9,8 @@ export default class MyList extends Component {
 
   onReverseClick = reverse.bind(this);
 
+  //The onReverseClick method actually calls the generic reverse function. It is created using bind() to bind the context of the generic function to this component instance.
+
   render() {
     const {
       state: { items },
