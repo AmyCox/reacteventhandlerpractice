@@ -28,3 +28,7 @@ export default class HigherOrderEventHandler extends Component {
 }
 
 // This component demonstrates how to make your event handler functions interact with your component data. If you have a class based component you can bind your function context to the component class so that you have direct access to the component state and properties. Higher order functions are another option for generating distinct callback functions by passing an argument to the higher order function.
+
+
+// When a DOM element that is part of React component dispatches and event, React will handle the event because it sets up its own listeners for them. Then, it will either create a new synthetic event or will reuse one from the pool depending on availability.
+// If there are any event handlers declared for the component that match the DOM event that was dispatched they will run with the synthetic event passed to them.

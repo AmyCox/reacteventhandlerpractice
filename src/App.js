@@ -3,6 +3,8 @@ import MyButton from "./components/MyButton";
 import MyInput from "./components/MyInput";
 import MyList from "./components/MyList";
 import HigherOrderEventHandler from "./components/HigherOrderEventHandler";
+import InlineEventHandlers from "./components/InlineEventHandlers";
+import AsyncEventExample from "./components/AsyncEventExample";
 import "./App.css";
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <MyInput />
         <MyList />
         <HigherOrderEventHandler />
+        <InlineEventHandlers>CLICK ME AND I SAY CLICKED</InlineEventHandlers>
+        <AsyncEventExample>ASYNC EXAMPLE</AsyncEventExample>
         <a
           className="App-link"
           href="https://reactjs.org"
